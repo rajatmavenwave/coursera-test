@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+}
+body{
+
+  font-size: 16px;
+  color: #fff;
+  background-color: solid white;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #696969;
+  border-radius: 0;
+  border: 2px solid black;
+  border-left: 0;
+  border-right: 0;
+
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-family: 'regular', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #E7E7E7;
+  
+   
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 2px solid black
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+
+}
+
+
+h1{
+ font-family: 'regular', sans-serif;	
+ color: black;
+ font-size: 2em;
+ font-weight: bold;
+ text-align: center;
+
+}
+
+.column{
+	background-color:  #696969;
+	margin: 10px;
+	
+}
+.column h1{
+	font-family: 'regular', sans-serif;	
+ color: black;
+ font-size: 2em;
+ font-weight: bold;
+ text-align: center;
+ padding-top: 5px;
+}
+
+.column p{
+  font-family: 'regular', sans-serif;	
+  font-size: 1em;
+  font-weight: bold;
+  text-align: justify;
+  padding: 5px;
+}
+
+/*@media (max-width: 479px) {
+  
+  
+  .col-xxs-12{
+    position:relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left;
+    width: 100%;
+  }
+}*/
+
+#div1, #div2, #div3 {
+	color: black;
+	background-color: #696969;
+    width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
